@@ -6,6 +6,30 @@
     <title>Event Registration - ABCD</title>
 </head>
 <body>
-    
+    <h1>Event Registration</h1>
+    <br>
+    <form>
+        <label for="name">Name:</label> <br>
+        <input type="text" name="name" id="name"> <br><br>
+        <label for="email">Email:</label> <br>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="phone">Phone:</label><br>
+        <input type="number" name="phone" id="phone"><br><br>
+        <label for="occupation">Occupation</label><br>
+        <select name="occupation" id="occupation">
+            <option value="bekar">Bekar</option>
+            <option value="web-devoloper">Web Devoloper</option>
+            <option value="graphic-designer">Graphic Designer</option>
+            <option value="degital-marketor">Digital Marketor</option>
+            <option value="student">Student</option>
+        </select><br><br>
+        <label for="topics-of-interest">Topics of Interest</label><br>
+        <input type="checkbox" name="html" id="topics-of-interest">HTML<br>
+        <input type="checkbox" name="css" id="topics-of-interest">CSS<br>
+        <input type="checkbox" name="js" id="topics-of-interest">Javascript<br><br>
+        <label for="comments">Comments:</label><br>
+        <textarea name="comments" id="comments"></textarea>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
